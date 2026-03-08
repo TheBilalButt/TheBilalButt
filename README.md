@@ -19,7 +19,7 @@
 ## 👨‍💻 About Me
 - 🎓 **Bilal Butt**, AI/ML Engineer from Pakistan  
 - 💻 Focused on building intelligent, scalable, and impactful solutions  
-- 📚 Learning never stops — always exploring new tools and technologies  
+- 📚 Learning never stops always exploring new tools and technologies  
 - ✨ I write clean, efficient code in:
 
 ---
