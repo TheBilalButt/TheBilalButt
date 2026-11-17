@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 220" width="100%" height="220">
+  <defs>
+    <linearGradient id="tl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0e14"/>
+      <stop offset="50%" stop-color="#08090d"/>
+      <stop offset="100%" stop-color="#140407"/>
+    </linearGradient>
+    <linearGradient id="bar-py" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e50914"/>
+      <stop offset="100%" stop-color="#ff3355"/>
+    </linearGradient>
+    <linearGradient id="bar-nb" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff5722"/>
+      <stop offset="100%" stop-color="#ff8a50"/>
+    </linearGradient>
+    <linearGradient id="bar-js" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f7df1e"/>
+      <stop offset="100%" stop-color="#ffe066"/>
+    </linearGradient>
+    <linearGradient id="bar-dart" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0175c2"/>
+      <stop offset="100%" stop-color="#40c4ff"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .lang-lbl { font-family: "Courier New", Courier, monospace; font-weight: 700; font-size: 11px; fill: #c9d1d9; letter-spacing: 0.5px; }
+    .lang-pct { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-weight: 700; font-size: 11px; fill: #8b949e; }
+    .header-tl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-weight: 900; font-size: 15px; fill: #ffffff; letter-spacing: 2px; }
+  </style>
+
+  <!-- Border & Background -->
+  <rect x="2" y="2" width="446" height="216" rx="10" fill="url(#tl-bg)" stroke="#2e1017" stroke-width="1.5"/>
+
+  <!-- Top Accent Slash -->
+  <path d="M 444 12 L 432 2 L 326 2 L 338 12 Z" fill="#e50914" opacity="0.8"/>
+  <circle cx="438" cy="8" r="2" fill="#ffffff"/>
+
+  <!-- Card Title -->
+  <g transform="translate(25, 34)">
+    <text x="0" y="0" class="header-tl">💀 CONQUERED LANGUAGES</text>
+    <line x1="0" y1="8" x2="395" y2="8" stroke="#ff1a40" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="395" cy="8" r="2" fill="#ff1a40"/>
+  </g>
+
+  <!-- Languages List -->
+  <g transform="translate(25, 65)">
+    <!-- Python -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" class="lang-lbl">Python (AI &amp; Backend)</text>
+      <text x="395" y="0" text-anchor="end" class="lang-pct">62.0%</text>
+      <rect x="0" y="6" width="395" height="7" rx="3.5" fill="#1b1d24"/>
+      <rect x="0" y="6" width="245" height="7" rx="3.5" fill="url(#bar-py)"/>
+    </g>
+
+    <!-- Jupyter / Research -->
+    <g transform="translate(0, 32)">
+      <text x="0" y="0" class="lang-lbl">Jupyter Notebooks (CV &amp; ML)</text>
+      <text x="395" y="0" text-anchor="end" class="lang-pct">15.0%</text>
+      <rect x="0" y="6" width="395" height="7" rx="3.5" fill="#1b1d24"/>
+      <rect x="0" y="6" width="60" height="7" rx="3.5" fill="url(#bar-nb)"/>
+    </g>
+
+    <!-- JavaScript / Web -->
+    <g transform="translate(0, 64)">
+      <text x="0" y="0" class="lang-lbl">JavaScript (Simulations &amp; Web)</text>
+      <text x="395" y="0" text-anchor="end" class="lang-pct">11.0%</text>
+      <rect x="0" y="6" width="395" height="7" rx="3.5" fill="#1b1d24"/>
+      <rect x="0" y="6" width="44" height="7" rx="3.5" fill="url(#bar-js)"/>
+    </g>
+
+    <!-- Dart / Flutter -->
+    <g transform="translate(0, 96)">
+      <text x="0" y="0" class="lang-lbl">Dart / Flutter (Defense Ops)</text>
+      <text x="395" y="0" text-anchor="end" class="lang-pct">7.0%</text>
+      <rect x="0" y="6" width="395" height="7" rx="3.5" fill="#1b1d24"/>
+      <rect x="0" y="6" width="28" height="7" rx="3.5" fill="url(#bar-dart)"/>
+    </g>
+  </g>
+
+  <!-- Corner Brackets -->
+  <path d="M 8 200 L 20 200 L 8 188" fill="none" stroke="#e50914" stroke-width="2"/>
+</svg>
