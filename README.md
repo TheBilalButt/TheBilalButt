@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://bilalbutt.tech/"><img src="https://img.shields.io/badge/HEADQUARTERS-bilalbutt.tech-e50914?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" /></a>
-  <a href="https://github.com/TheBilalButt?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-24_PUBLIC-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
+  <a href="https://github.com/TheBilalButt?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-25_PUBLIC-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
   <a href="mailto:bilalbutt@duck.com"><img src="https://img.shields.io/badge/TRANSMISSION-CONTACT-b3001e?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -343,16 +343,16 @@ FLUTTER / DOCKER / GIT / GITHUB / LINUX / VS CODE / SYSTEM ARCHITECTURE
     </td>
     <td width="50%" valign="top" style="background-color: #08090d; border: 1px solid #2e1017; border-radius: 8px; padding: 14px;">
       <h3 style="margin-top: 0; color: #ff2a4b;">
-        <a href="https://github.com/TheBilalButt/lab-07-ga-hog-medical-classification" style="color: #ff4d66; text-decoration: none;">GA and HOG Medical Image Classification</a>
+        <a href="https://github.com/TheBilalButt/Computer-Vision-Labs" style="color: #ff4d66; text-decoration: none;">Computer Vision Labs: Complete Portfolio (Labs 01 - 09)</a>
       </h3>
       <p style="color: #c9d1d9; font-size: 13.5px; line-height: 1.5;">
-        Medical machine learning research applying Evolutionary Genetic Algorithms to optimize Histogram of Oriented Gradients (HOG) feature descriptors for PneumoniaMNIST diagnosis.
+        Consolidated academic laboratory curriculum featuring 10 advanced Computer Vision modules covering spatial filtering, edge detection, HOG, SIFT, Genetic Algorithm feature optimization, and multimodal state analysis.
       </p>
       <p style="font-size: 12px; color: #8b949e;">
-        <strong>Technologies:</strong> <code>Python</code> <code>Genetic Algorithms</code> <code>HOG and SIFT</code> <code>Scikit-Learn</code>
+        <strong>Technologies:</strong> <code>Python</code> <code>OpenCV</code> <code>HOG and SIFT</code> <code>Genetic Algorithms</code> <code>Medical AI</code>
       </p>
-      <a href="https://github.com/TheBilalButt/lab-07-ga-hog-medical-classification">
-        <img src="https://img.shields.io/badge/REPOSITORY-GITHUB-e50914?style=flat-square&logo=github" alt="Inspect GA Medical" />
+      <a href="https://github.com/TheBilalButt/Computer-Vision-Labs">
+        <img src="https://img.shields.io/badge/REPOSITORY-GITHUB-e50914?style=flat-square&logo=github" alt="Inspect CV Labs" />
       </a>
     </td>
   </tr>
